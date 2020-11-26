@@ -9,7 +9,7 @@
 <br>
 ![dog](https://drive.google.com/uc?export=view&id=1jUkhdT2NbvVGc9BmLHbKvs1WeBpdCfp6)
 
-  tiger_output = model.output[:, 292]
+    tiger_output = model.output[:, 292]
     last_conv_layer = model.get_layer('block5_conv3')
     
     # Gradients of the Tiger class wrt to the block5_conv3 filer
